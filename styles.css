@@ -1,0 +1,173 @@
+:root{
+    --white : #fff;
+    --black : #0a0a0a;
+    --purple: #7510F7;
+}
+
+
+html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+nav > .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: var(--white);
+    color: var(--black);
+    font-family: "eurostile", sans-serif;
+}
+
+/* a tag for button */
+/* Reversing default behavior */
+
+a{
+    text-decoration: none;
+}
+
+/* Navbar */
+
+.navbar-custom {
+    background-color: white;
+}
+/* Modify brand and text color */
+ 
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: purple !important;
+}
+
+
+/* Hero */
+
+.hero{
+    padding-top: 6rem;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.inner-hero{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-body h1, .hero-body h2, .hero-body img{
+    padding-bottom: 3rem;
+}
+
+h1{
+    font-weight: bold;
+}
+
+h2{
+    font-weight: lighter;
+}
+
+
+.section{
+    width: 100%;
+    background-color: var(--purple);
+    padding-bottom: 15rem;
+    padding-top:12rem;
+}
+
+
+.section h1, .section h2{
+    color: white;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.section, .projectBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.projectBody{
+    /* width: 75%; */
+}
+
+.is-centered{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h2 a{
+    color: var(--purple);
+}
+
+.projects h2{
+    font-weight: lighter;
+    color: #141c3a;
+    font-size: 1.25rem;
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+}
+
+
+.columns{
+    display: flex;
+    text-align: center;
+    margin-top: -14rem;
+    background-color: white;
+    border-radius: 2%;
+    padding-bottom: 2rem;
+    margin-bottom: 5rem;
+    border: 0.0001rem solid black;
+}
+
+.column{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 3rem;
+    
+}
+
+.borderLeft{
+    border-right: 0.0001rem solid black;
+}
+
+.list-title{
+    color: var(--purple);
+}
+
+/* .section h1{
+    font-weight: 700;
+    line-height: 1.125;
+}
+
+.section h2{
+    font-weight: 100;
+    line-height: 1.5;
+} */
+
+
+/* Skills */
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
