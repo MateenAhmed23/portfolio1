@@ -201,7 +201,20 @@ ul {
 }
 
 .project{
-    background-color: grey;
+    background-color: var(--purple);
+    color: var(--white);
     /* height: 10rem; */
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 0.1rem; */
+}
+
+.project a{
+    border: 1px solid white;
+    padding: 0 1rem;
+    color: var(--white);
+    border-radius: 1rem;
 }
