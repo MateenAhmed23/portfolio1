@@ -218,3 +218,28 @@ ul {
     color: var(--white);
     border-radius: 1rem;
 }
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--purple);
+    margin-top: 3rem;
+    padding: 5rem 1rem;
+    color: var(--white);
+}
+
+.footer h3{
+    margin: 2rem 0;
+    font-weight: 300;
+    /* max-width: 300px; */
+    opacity: 0.7;
+}
+
+
+.footer img{
+    width: 2rem;
+    height: 2rem;
+}
